@@ -1,0 +1,10 @@
+#! /bin/bash
+echo "Enter username"
+read inputname
+username="$(whoami)"
+if [ $username == $inputname ];
+then
+    echo "you are logged in"
+else
+    echo "you are not logged in"
+fi

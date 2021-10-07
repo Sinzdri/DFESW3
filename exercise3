@@ -1,0 +1,4 @@
+#! /bin/bash
+Echo "Enter Filename"
+read filename
+

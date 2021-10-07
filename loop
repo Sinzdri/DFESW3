@@ -1,0 +1,10 @@
+#! /bin/bash
+
+mathsvar=1
+while [ $mathsvar -lt 100 ]
+do
+  echo $mathsvar
+  ((mathsvar++))
+done
+
+
