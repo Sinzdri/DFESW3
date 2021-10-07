@@ -1,0 +1,13 @@
+#! /bin/bash
+echo "Enter filename"
+read filename
+echo "Enter title"
+read title
+month=$(date +%B)
+year=$(date +%Y)
+day=$(date +%d)
+mkdir $month$year 2>/dev/null
+cd $month$year
+touch ${filename}-$day.md
+echo "${title} $(date "+%D")" > ${filename}-$day.md
+
