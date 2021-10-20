@@ -1,2 +1,2 @@
 # DFESW3
-Random stuff for course things
+Python course work.
