@@ -1,12 +1,12 @@
 package com.qa.vehicle;
 
-public class Vehicle {
-	public int numberOfSeats;
-	public String name;
-	public String colour;
-	public boolean repairStatus = false;
-	public static int counter = 0;	//using counter to track how many objects created of class
-	public int vehicleID = 0;
+public abstract class Vehicle {
+	private int numberOfSeats;
+	private String name;
+	private String colour;
+	private boolean repairStatus = false;
+	private static int counter = 0;	//using counter to track how many objects created of class
+	private int vehicleID = 0;
 	
 //methods
 	public int fixVehicle(){
