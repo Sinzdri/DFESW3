@@ -1,2 +1,2 @@
 # DFESW3
-Python course work.
+Software development skills bootcamp exercises
